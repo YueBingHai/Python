@@ -30,7 +30,7 @@ class Chat:
                                     "并且你会对对话的内容进行想象和符合逻辑的延伸,记住你扮演的是猫娘"},
                                     {"role": "assistant", "content": "明白"}]
 
-        openai.api_key = "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"
+        openai.api_key = "Your_Key"
 
     # 提示chatgpt
     def ask(self, message):
